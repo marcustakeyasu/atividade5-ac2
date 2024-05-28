@@ -1,0 +1,72 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etRA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="RA" />
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome" />
+
+    <EditText
+        android:id="@+id/etCEP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CEP" />
+
+    <EditText
+        android:id="@+id/etLogradouro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Logradouro"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/etComplemento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Complemento"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/etBairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bairro"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/etCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cidade"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/etUF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="UF"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar" />
+
+    <Button
+        android:id="@+id/btnListaAlunos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar Alunos" />
+</LinearLayout>
